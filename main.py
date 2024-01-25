@@ -36,9 +36,6 @@ def extract_text_from_pdf(file_path):
     return t
 
 
-'''def get_first_x_characters(niggawhat, x):
-    return niggawhat[:x]'''
-
 
 def insert_text_to_excel(file_path, case, text_ins):
     df = pd.read_excel(file_path)
